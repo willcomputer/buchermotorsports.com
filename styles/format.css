@@ -15,8 +15,15 @@ body {
     margin-top: 10px;
     margin-bottom: 10px;
     max-width: 600px;
+    min-width: 50vw;
     text-align: left;
     box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.centering {
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
 }
 
 .header {
@@ -25,16 +32,23 @@ body {
 
 .main {
 
-
 }
 
 
 /* Special considerations for Phones */
 @media screen and (max-width: 768px) {
-.header {
-    margin-top: 0px;
-    margin-bottom: 0px;
+    .box {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        padding: 0px;
+        min-width: 100vw;
+        max-width: 100vw;
 
-}
+    }
+    .header, .main {
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+
 }
 
