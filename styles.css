@@ -4,3 +4,13 @@
     align-items: center;
     justify-content: center;
 }
+
+img {
+    width: 90%;
+}
+
+@media (width >= 1024px) {
+    img {
+        width: 50%;
+    }
+}
