@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    min-width: 100vw; 
+    min-height: 100vh;
+
+    display: flex; 
+    justify-content: center; 
+    
+    background-color: #898484;
+}
+
+.box {
+    background: rgb(247, 247, 247);
+    padding: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    max-width: 600px;
+    text-align: left;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.header {
+    
+}
+
+.main {
+
+
+}
+
+
+/* Special considerations for Phones */
+@media screen and (max-width: 768px) {
+.header {
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+}
+}
+
