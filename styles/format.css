@@ -7,6 +7,9 @@ body {
     justify-content: center; 
     
     background-color: #898484;
+    background-image: url('/photos/trees.gif');
+    background-repeat: repeat;
+
 }
 
 .box {
